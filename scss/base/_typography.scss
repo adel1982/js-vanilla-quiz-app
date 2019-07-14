@@ -1,0 +1,46 @@
+/*------------------------------------*\
+  $ STYLES
+\*------------------------------------*/
+.text-light {
+  font-weight: 300;
+}
+.font-weight-normal {
+  font-weight: normal;
+}
+.font-weight-medium {
+  font-weight: 600;
+}
+.font-weight-bold {
+  font-weight: bold;
+}
+.font-italic {
+  font-style: italic;
+}
+/*------------------------------------*\
+  $ SIZE
+\*------------------------------------*/
+.font-16 {
+  @include rem(font-size, 1.6rem);
+}
+.font-18 {
+  @include rem(font-size, 1.8rem);
+}
+.font-19 {
+  @include rem(font-size, 1.9rem);
+}
+.font-20 {
+  @include rem(font-size, 2rem);
+}
+.font-22 {
+  @include rem(font-size, 2.2rem);
+}
+.font-24 {
+  @include rem(font-size, 2.4rem);
+}
+.font-26 {
+  @include rem(font-size, 2.6rem);
+}
+.font-28 {
+  @include rem(font-size, 2.8rem);
+}
+

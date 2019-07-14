@@ -1,3 +1,11 @@
-body {
-  background-color: salmon;
-}
+// Variables
+@import "helpers/variables";
+@import "helpers/mixins";
+@import "helpers/utilities";
+
+// Base
+@import "base/reset";
+@import "base/typography";
+@import "base/fonts";
+
+// Layout
