@@ -1,0 +1,14 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-sass -w --output-style compressed scss -o css --source-map-root file://${PWD}/ --source-map-embed true"
+  },
+  "repository": "https://github.com/adel1982/js-vanilla-quiz-app.git",
+  "author": "Adel Kamel <adelkamel1982@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
