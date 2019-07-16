@@ -1,28 +1,9 @@
-/*------------------------------------*\
-  $ POSITION
-\*------------------------------------*/
-.relative-pos { position: relative }
-.absolute-pos { position: absolute }
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
 
-/*------------------------------------*\
-  $ BORDER
-\*------------------------------------*/
-.no-border { border: none }
-
-/*------------------------------------*\
-  $ LINKS
-\*------------------------------------*/
-.no-underline, .no-underline a {  text-decoration: none;  }
-
-/*------------------------------------*\
-  $ LIST
-\*------------------------------------*/
-.list-reset { list-style-type: none; }
-
-/*------------------------------------*\
-  $ RESPONSIVE
-\*------------------------------------*/
-.responsive-img {
-  width: 100%;
-  height: auto;
+.flex-center {
+  justify-content: center;
+  align-items: center;
 }

@@ -1,0 +1,28 @@
+*,
+*:after,
+*:before { box-sizing: border-box; }
+
+html { font-size: 62.5%; }
+
+body {
+  background-color: $bgColor;
+  color: $txtColor;
+  font: normal 2rem/1 'Montserrat', sans-serif;
+  overflow-x: hidden; 
+  margin: 0; padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  outline: 1px dashed grey;
+  margin: 0 auto;
+  max-width: 80rem;
+  width: 100vw; height: 100vh;
+}
+
+.container > * {
+  width: 100%;
+}

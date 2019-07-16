@@ -4,8 +4,9 @@
 @import "helpers/utilities";
 
 // Base
-@import "base/reset";
 @import "base/typography";
-@import "base/fonts";
+@import "base/base";
 
 // Layout
+@import "layout/btn";
+@import "layout/game";

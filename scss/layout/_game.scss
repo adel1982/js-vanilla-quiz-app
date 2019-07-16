@@ -1,0 +1,25 @@
+.choice-container {
+  @include rem(font-size, 1.8rem);
+  @include rem(margin-bottom, .5rem);
+  border: .1rem solid rgba(86, 165, 235, .25);
+  display: flex;
+  width: 100%;
+  &:hover {
+    @include transition(all, .5s ease);
+    background-color: #fff;
+    cursor: pointer;
+    & > .choice-text {
+      @include transition(color, .5s ease);
+      color: #000;
+    }
+  }
+  .choice-prefix {
+    @include rem(padding, 3.5rem 2.5rem);
+    background-color: #c03;
+    margin: 0;
+    color: #fff; 
+  }
+  .choice-text {
+    @include rem(padding, 1.5rem);
+  }
+}
