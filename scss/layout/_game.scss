@@ -4,14 +4,14 @@
   border: .1rem solid rgba(86, 165, 235, .25);
   display: flex;
   width: 100%;
+  &.correct {
+    background-color: #28a745;
+  }
+  &.incorrect {
+    background-color: #dc3545;
+  }
   &:hover {
-    @include transition(all, .5s ease);
-    background-color: #fff;
     cursor: pointer;
-    & > .choice-text {
-      @include transition(color, .5s ease);
-      color: #000;
-    }
   }
   .choice-prefix {
     @include rem(padding, 3.5rem 2.5rem);
