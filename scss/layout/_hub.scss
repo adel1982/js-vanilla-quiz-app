@@ -1,0 +1,9 @@
+#hud {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  .hud-main-text {
+    font-size: 3rem;
+    text-align: center;
+  }
+}
