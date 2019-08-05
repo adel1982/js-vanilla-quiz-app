@@ -1,0 +1,16 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+input {
+  @include rem(font-size, 1.8rem);
+  @include rem(margin-bottom, 1rem);
+  @include rem(padding, 1.5rem);
+  @include rem(width, 20rem);
+  border: none;
+  &::placeholder {
+    color: #aaa;
+  }
+}
