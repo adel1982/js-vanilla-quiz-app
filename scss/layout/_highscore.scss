@@ -1,0 +1,10 @@
+#highScoresList {
+  @include rem(margin-bottom, 4rem);
+  color: #fff;
+  list-style: none;
+  padding-left: 0;
+  .high-score {
+    @include rem(font-size, 2.8rem);
+    @include rem(margin-bottom, .5rem);
+  }
+}
