@@ -2,6 +2,6 @@
 
 ## Used Technologys
 - HTML / CSS / JS Vanilla 
-- JSON 
-- GULP 4 
-- YARN 
+- Json 
+- Gulp 4 
+- Yarn 
